@@ -1,10 +1,11 @@
 // console
-console.log('executando console');
+console.log('INTRODUÇÃO');
 
 // javascript possui tipagem dinamica
 
 // variável do tipo primitivo
 // #############################
+console.log('1 - variável do tipo primitivo')
 
 var name = 'Fabio' // string
 var ano = 46 // number
@@ -15,6 +16,7 @@ var time //undefined
 
 // variáveis do tipo composto
 // #############################
+console.log('2 - variáveis do tipo composto')
 
 var fruits = ["morango", "abacaxi", "banana", null, 46, 1.76, true]
 
@@ -25,15 +27,12 @@ var person = {
 }
 person.name = name
 
-// reatribuindo valor
-name = true;
-
-console.log(fruits[1].slice(0,2))
-
 // descrobindo o tipo de uma variavel
 console.log(typeof fruits)
 
 // concatenação texto e variáveis
+// #################################
+console.log('3 - concatenação texto e variáveis')
 
 var product = {
     name: 'Camisa',
@@ -45,6 +44,8 @@ console.log('O valor do produto ' + product.name + ' é ' + product.price)
 
 // operadores matemáticos
 // #########################
+console.log('4 - operadores matemáticos')
+
 // Operadores aritméticos binários
 // multipllicação, divisão, subtração e divisão
 // depende de dois ou mais valores para fazer a operação
@@ -59,3 +60,23 @@ console.log(result)
 // ++ incrementar
 // -- decrementar
 console.log(--x)
+
+
+// operadores de atribuição
+// ###########################
+console.log('5 - operadores de atribuição')
+var x = 3
+var y = 3
+
+result = x + y;
+console.log(result)
+
+x/=y
+console.log(x)
+
+var text = 'o melhor produto é '
+var product = 'sapato'
+
+text+=product
+console.log(text)
+
