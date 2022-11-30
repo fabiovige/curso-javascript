@@ -4,6 +4,7 @@ console.log('executando console');
 // javascript possui tipagem dinamica
 
 // variável do tipo primitivo
+// #############################
 
 var name = 'Fabio' // string
 var ano = 46 // number
@@ -13,11 +14,10 @@ var foor = null // null
 var time //undefined  
 
 // variáveis do tipo composto
+// #############################
 
-// array
 var fruits = ["morango", "abacaxi", "banana", null, 46, 1.76, true]
 
-// objeto
 var person = {
     name: 'Joao',
     age: 46,
@@ -41,3 +41,21 @@ var product = {
 }
 var price = 15.60
 console.log('O valor do produto ' + product.name + ' é ' + product.price)
+
+
+// operadores matemáticos
+// #########################
+// Operadores aritméticos binários
+// multipllicação, divisão, subtração e divisão
+// depende de dois ou mais valores para fazer a operação
+var x = 5
+var y = 3
+var result = 20 + 2 * 5
+console.log(result)
+
+// Operadores aritméticos unários
+// utiliza um valor para fazer a operação
+
+// ++ incrementar
+// -- decrementar
+console.log(--x)
