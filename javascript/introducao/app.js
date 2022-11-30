@@ -12,7 +12,7 @@ var live = true // boolean
 var foor = null // null
 var time //undefined  
 
-// variáveis do tipo compostas
+// variáveis do tipo composto
 
 // array
 var fruits = ["morango", "abacaxi", "banana", null, 46, 1.76, true]
@@ -28,7 +28,7 @@ person.name = name
 // reatribuindo valor
 name = true;
 
-console.log(fruits[1].slice(2,7))
+console.log(fruits[1].slice(0,2))
 
 // descrobindo o tipo de uma variavel
 console.log(typeof fruits)
