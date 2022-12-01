@@ -6,6 +6,7 @@ console.log('INTRODUÇÃO');
 // variável do tipo primitivo
 // #############################
 console.log('1 - variável do tipo primitivo')
+console.log('################################');
 
 var name = 'Fabio' // string
 var ano = 46 // number
@@ -17,6 +18,7 @@ var time //undefined
 // variáveis do tipo composto
 // #############################
 console.log('2 - variáveis do tipo composto')
+console.log('################################');
 
 var fruits = ["morango", "abacaxi", "banana", null, 46, 1.76, true]
 
@@ -33,6 +35,7 @@ console.log(typeof fruits)
 // concatenação texto e variáveis
 // #################################
 console.log('3 - concatenação texto e variáveis')
+console.log('################################');
 
 var product = {
     name: 'Camisa',
@@ -45,6 +48,7 @@ console.log('O valor do produto ' + product.name + ' é ' + product.price)
 // operadores matemáticos
 // #########################
 console.log('4 - operadores matemáticos')
+console.log('################################');
 
 // Operadores aritméticos binários
 // multipllicação, divisão, subtração e divisão
@@ -65,6 +69,8 @@ console.log(--x)
 // operadores de atribuição
 // ###########################
 console.log('5 - operadores de atribuição')
+console.log('################################');
+
 var x = 3
 var y = 3
 
@@ -84,6 +90,8 @@ console.log(text)
 // funções
 // ##########
 console.log('6 - funções')
+console.log('################################');
+
 function action() {
     return 50
 }
@@ -138,6 +146,8 @@ console.log(message)
 // Operadores de comparação
 // ###########################
 console.log('7 - operadores de comparacao')
+console.log('################################');
+
 if (10 == 10) {
     console.log('10 == 10')
 }
@@ -162,3 +172,39 @@ if(10>=10){
 if(10<=11){
     console.log('10<=11')
 }
+
+
+// operadores lógicos
+// #####################
+console.log('8 - operadores lógicos')
+console.log('################################');
+
+var email = 'fabiovige@gmail.com'
+var password = '1234'
+
+if (email === 'fabiovige@gmail.com' && password === '1234') {
+    console.log('Usuário autenticado')
+} else {
+    console.log('Dados inválidos')
+}
+
+var age = 20
+var sex = 'F'
+
+if( age >= 18 || sex === 'M') {
+    console.log('Entrada liberada')
+} else {
+    console.log('Entrada negada')
+}
+
+if (!sex === 'F') {
+    console.log('Entrada feminina liberada')
+} else {
+    console.log('Entrada feminina negada')
+}
+
+var isActive = true
+isActive = !isActive
+console.log(isActive)
+isActive = !isActive
+console.log(isActive)
