@@ -93,5 +93,44 @@ function sum(number1, number2) {
 console.log(1 + action())
 console.log(sum(10, 50))
 
+// condicional
+// ###########
+console.log('condicional')
+var isActive = false
+var message = ''
+if (isActive) {
+    message = 'esta ativo'
+} else {
+    message = 'não esta ativo'
+}
+ console.log(message)
 
+var trafficligth = 'verded'
 
+if (trafficligth  == 'verde') {
+    message = 'Pode passar'
+} else if (trafficligth == 'amarelo') {
+    message = 'Atenção'
+} else if (trafficligth == 'vermelho') {
+    message = 'Pare'
+} else {
+    message = 'Valor inválido'
+}
+
+console.log(message)
+
+switch (trafficligth) {
+    case 'verde':
+        message = 'Pode passar'
+        break
+    case 'amarelo':
+        message = 'Atenção'
+        break
+    case 'vermelho':
+        message = 'Pare'
+        break
+    default:
+        message = 'Valor inválido'
+}
+
+console.log(message)
