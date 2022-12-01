@@ -80,3 +80,18 @@ var product = 'sapato'
 text+=product
 console.log(text)
 
+
+// funções
+// ##########
+console.log('6 - funções')
+function action() {
+    return 50
+}
+function sum(number1, number2) {
+    return number1 + number2
+}
+console.log(1 + action())
+console.log(sum(10, 50))
+
+
+
