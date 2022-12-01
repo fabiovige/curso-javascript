@@ -208,3 +208,13 @@ isActive = !isActive
 console.log(isActive)
 isActive = !isActive
 console.log(isActive)
+
+// Operador ternário
+// ######################
+console.log('9 - operador ternário')
+console.log('################################');
+
+var age = 15
+var result =  age > 100 ? 'deu boa' : 'deu ruim'
+
+console.log(result)
