@@ -134,3 +134,31 @@ switch (trafficligth) {
 }
 
 console.log(message)
+
+// Operadores de comparação
+// ###########################
+console.log('7 - operadores de comparacao')
+if (10 == 10) {
+    console.log('10 == 10')
+}
+if (10 == '10') {
+    console.log("10=='10'")
+}
+if (10 === '10') {
+    console.log('ok')
+}
+if(10!=11){
+    console.log('10!=11')
+}
+if(10 > 11) {
+    console.log("10 > 11")
+}
+if(10<12){
+    console.log('10<12')
+}
+if(10>=10){
+    console.log('10>=10')
+}
+if(10<=11){
+    console.log('10<=11')
+}
